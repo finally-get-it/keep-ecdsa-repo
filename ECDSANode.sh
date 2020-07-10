@@ -5,18 +5,18 @@ echo "==========================================================================
 echo "Start entering values one by one as system keeps ask"
 echo "================================================================================================================================"
 
-read -p "Enter Your Server IP : " server
-read -p "Enter Your Infura Id : " infura
-read -p "Enter Your Etherium Wallet Address : " eth
-read -p "Enter Your Etherium Wallet Passwd : " passwd
+read -p "Enter Your Server IP : " server_e
+read -p "Enter Your Infura Id : " infura_e
+read -p "Enter Your Etherium Wallet Address : " eth_e
+read -p "Enter Your Etherium Wallet Passwd : " passwd_e
 
-echo 'export SERVER_IP_ECDSA='$server'' >> ~/.bash_profile
+echo 'export SERVER_IP_ECDSA='$server_e'' >> ~/.bash_profile
 source ~/.bash_profile
-echo 'export INFURA_PROJECT_ID_ECDSA='$infura'' >> ~/.bash_profile
+echo 'export INFURA_PROJECT_ID_ECDSA='$infura_e'' >> ~/.bash_profile
 source ~/.bash_profile
-echo 'export ETH_WALLET_ECDSA='$eth'' >> ~/.bash_profile
+echo 'export ETH_WALLET_ECDSA='$eth_e'' >> ~/.bash_profile
 source ~/.bash_profile
-echo 'export KEEP_CLIENT_ETHEREUM_PASSWORD_ECDSA='$passwd'' >> ~/.bash_profile
+echo 'export KEEP_CLIENT_ETHEREUM_PASSWORD_ECDSA='$passwd_e'' >> ~/.bash_profile
 source ~/.bash_profile
 
 source ~/.bash_profile
