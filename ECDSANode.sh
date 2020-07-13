@@ -75,7 +75,7 @@ echo '  Peers = ["/dns4/bootstrap-1.ecdsa.keep.test.boar.network/tcp/4001/ipfs/1
 "/dns4/ecdsa-3.test.keep.network/tcp/3919/ipfs/16Uiu2HAm8KJX32kr3eYUhDuzwTucSfAfspnjnXNf9veVhB12t6Vf"]' >> $HOME/keep-ecdsa/config/config.toml
 echo 'Port = 3919' >> $HOME/keep-ecdsa/config/config.toml
 echo ' # Override the node’s default addresses announced in the network' >> $HOME/keep-ecdsa/config/config.toml
-echo ' AnnouncedAddresses = ["/ip4/'$SERVER_IP_ECDSA'/tcp/5678"]' >> $HOME/keep-ecdsa/config/config.toml
+echo ' AnnouncedAddresses = ["/ip4/'$SERVER_IP_ECDSA'/tcp/3920"]' >> $HOME/keep-ecdsa/config/config.toml
 echo '[TSS]' >> $HOME/keep-ecdsa/config/config.toml
 echo '# Timeout for TSS protocol pre-parameters generation. The value' >> $HOME/keep-ecdsa/config/config.toml
 echo '# should be provided based on resources available on the machine running the client.' >> $HOME/keep-ecdsa/config/config.toml
